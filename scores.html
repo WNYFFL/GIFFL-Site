@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Scores - GIFFL Revisited</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="standings.html">Standings</a></li>
+            <li><a href="scores.html">Scores</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="transactions.html">Transactions</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="commissioner.html">Commissioner</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero">
+        <h1>Weekly Scores</h1>
+        <h2>Track Every Point, Every Week</h2>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+
+        <!-- Week Selector -->
+        <section>
+            <h3>Select Week</h3>
+            <select id="week-selector">
+                <!-- JS will populate weeks 1–16 -->
+            </select>
+        </section>
+
+        <!-- Scores Table -->
+        <section style="margin-top: 20px;">
+            <h3>Scores</h3>
+
+            <table id="scores-table" class="retro-table">
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- JS will insert rows here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Notes -->
+        <section style="margin-top: 30px;">
+            <h3>Season Notes</h3>
+            <p>Scores are updated weekly.  
+               Week 16 determines the <strong>Superb Bowl</strong> and <strong>Superfluous Bowl</strong> champions.</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 GIFFL Revisited League</p>
+    </footer>
+
+    <!-- JavaScript Loader -->
+    <script src="js/scores.js"></script>
+
+</body>
+</html>
 
