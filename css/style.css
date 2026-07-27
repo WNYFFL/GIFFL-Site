@@ -1,0 +1,108 @@
+/* ===========================
+   DOT MATRIX RETRO THEME
+   =========================== */
+
+/* Global page style */
+body {
+    background-color: #f7f7f7;
+    font-family: "Courier New", Courier, monospace;
+    color: #222;
+    margin: 0;
+    padding: 0;
+
+    /* subtle dot-matrix horizontal banding */
+    background-image: repeating-linear-gradient(
+        to bottom,
+        #f7f7f7,
+        #f7f7f7 18px,
+        #eaeaea 19px
+    );
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px dotted #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+
+    /* dot-matrix low-ink effect */
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+.navbar a:hover {
+    color: #444;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 2px dotted #333;
+
+    /* slight misalignment effect */
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* Main content */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Section headers */
+.content h3 {
+    border-bottom: 2px dotted #333;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+}
+
+/* Quick links grid */
+.link-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.quick-link {
+    display: block;
+    padding: 10px;
+    border: 2px dotted #333;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+    /* low-ink effect */
+    text-shadow
