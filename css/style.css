@@ -20,7 +20,7 @@ body {
 }
 
 .league-logo {
-    width: 180px;   /* or whatever size you want */
+    width: 180px;
     height: auto;
     margin-bottom: 10px;
     image-rendering: pixelated;
