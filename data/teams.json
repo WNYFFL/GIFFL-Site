@@ -1,21 +1,21 @@
 [
     {
-        "team": "Slackers",
+        "teamName": "Slackers",
         "owner": "Vincent",
         "logo": "images/slackers.png"
     },
     {
-        "team": "Nine Below Zero",
+        "teamName": "Nine Below Zero",
         "owner": "Tony",
         "logo": "images/zero.png"
     },
     {
-        "team": "Jeraldo's Parents",
+        "teamName": "Jeraldo's Parents",
         "owner": "Jerry",
         "logo": "images/kids.png"
     },
     {
-        "team": "Team #4",
+        "teamName": "Team #4",
         "owner": "TBD",
         "logo": "images/tbd.png"
     }
