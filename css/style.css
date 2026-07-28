@@ -20,11 +20,12 @@ body {
 }
 
 .league-logo {
-    width: 80px;
+    width: 120px;
     height: auto;
     margin-bottom: 10px;
     image-rendering: pixelated;
 }
+
 /* Navigation bar */
 .navbar {
     background-color: #ffffff;
