@@ -1,0 +1,85 @@
+{
+  "1": [
+    { "team": "Slackers", "points": 88 },
+    { "team": "Crushers", "points": 74 },
+    { "team": "Bruisers", "points": 91 },
+    { "team": "Warriors", "points": 67 }
+  ],
+  "2": [
+    { "team": "Slackers", "points": 102 },
+    { "team": "Crushers", "points": 80 },
+    { "team": "Bruisers", "points": 95 },
+    { "team": "Warriors", "points": 70 }
+  ],
+  "3": [
+    { "team": "Slackers", "points": 76 },
+    { "team": "Crushers", "points": 89 },
+    { "team": "Bruisers", "points": 84 },
+    { "team": "Warriors", "points": 92 }
+  ],
+  "4": [
+    { "team": "Slackers", "points": 110 },
+    { "team": "Crushers", "points": 72 },
+    { "team": "Bruisers", "points": 97 },
+    { "team": "Warriors", "points": 81 }
+  ],
+  "5": [
+    { "team": "Slackers", "points": 95 },
+    { "team": "Crushers", "points": 103 },
+    { "team": "Bruisers", "points": 78 },
+    { "team": "Warriors", "points": 88 }
+  ],
+  "6": [
+    { "team": "Slackers", "points": 83 },
+    { "team": "Crushers", "points": 91 },
+    { "team": "Bruisers", "points": 106 },
+    { "team": "Warriors", "points": 74 }
+  ],
+  "7": [
+    { "team": "Slackers", "points": 120 },
+    { "team": "Crushers", "points": 77 },
+    { "team": "Bruisers", "points": 99 },
+    { "team": "Warriors", "points": 85 }
+  ],
+  "8": [
+    { "team": "Slackers", "points": 88 },
+    { "team": "Crushers", "points": 112 },
+    { "team": "Bruisers", "points": 90 },
+    { "team": "Warriors", "points": 79 }
+  ],
+  "9": [
+    { "team": "Slackers", "points": 101 },
+    { "team": "Crushers", "points": 84 },
+    { "team": "Bruisers", "points": 93 },
+    { "team": "Warriors", "points": 108 }
+  ],
+  "10": [
+    { "team": "Slackers", "points": 92 },
+    { "team": "Crushers", "points": 109 },
+    { "team": "Bruisers", "points": 87 },
+    { "team": "Warriors", "points": 76 }
+  ],
+  "11": [
+    { "team": "Slackers", "points": 115 },
+    { "team": "Crushers", "points": 73 },
+    { "team": "Bruisers", "points": 104 },
+    { "team": "Warriors", "points": 89 }
+  ],
+  "12": [
+    { "team": "Slackers", "points": 82 },
+    { "team": "Crushers", "points": 94 },
+    { "team": "Bruisers", "points": 99 },
+    { "team": "Warriors", "points": 107 }
+  ],
+  "13": [
+    { "team": "Slackers", "points": 108 },
+    { "team": "Crushers", "points": 86 },
+    { "team": "Bruisers", "points": 91 },
+    { "team": "Warriors", "points": 83 }
+  ],
+  "14": [
+    { "team": "Slackers", "points": 97 },
+    { "team": "Crushers", "points": 102 },
+    { "team": "Bruisers", "points": 88 },
+    { "team": "Warriors", "points": 93 }
+  ]
