@@ -14,9 +14,12 @@ fetch("data/teams.json")
             card.href = "#";
 
             card.innerHTML = `
+                <img src="${team.logo}" 
+                     alt="${team.teamName} logo" 
+                     style="width: 100px; height: auto; margin-bottom: 8px;"><br>
                 <strong>${team.teamName}</strong><br>
                 ${team.owner}<br>
-                <span style="font-size: 12px;">${team.city}</span>
+                <span style="font-size: 12px;">${team.city || ""}</span>
             `;
 
             grid.appendChild(card);
