@@ -101,6 +101,7 @@ body {
     margin-top: 10px;
 }
 
+/* FIXED QUICK-LINK BLOCK — LOGOS WILL NOW DISPLAY */
 .quick-link {
     display: block;
     padding: 10px;
@@ -112,4 +113,17 @@ body {
     font-weight: bold;
 
     /* low-ink effect */
-    text-shadow
+    text-shadow: 1px 1px 0 #ccc;
+
+    /* allow logos to show */
+    overflow: visible;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px dotted #333;
+    font-size: 12px;
