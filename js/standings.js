@@ -1,26 +1,46 @@
-// Load standings data from /data/standings.json
-fetch("data/standings.json")
+// Load scores and auto-generate standings (total points only)
+fetch("data/scores.json")
     .then(response => response.json())
-    .then(data => {
-        const tableBody = document.querySelector("#standings-table tbody");
+    .then(scores => {
 
-        data.forEach(team => {
-            const row = document.createElement("tr");
+        const teams = [
+            "West End Slackers",
+            "Nine Below Zero",
+            "Jeraldo's Parents",
+            "Team #4"
+        ];
 
-            // Calculate points per week (rounded to 2 decimals)
-            const pointsPerWeek = (team.totalPoints / team.weeksPlayed).toFixed(2);
+        // Initialize totals
+        const totals = {};
+        teams.forEach(team => {
+            totals[team] = {
+                team: team,
+                points: 0
+            };
+        });
 
-            row.innerHTML = `
-                <td>${team.teamName}</td>
-                <td>${team.totalPoints}</td>
-                <td>${pointsPerWeek}</td>
-                <td>${team.transactionsLeft}</td>
-                <td>${team.championshipPath}</td>
+        // Add up all weekly points
+        Object.values(scores).forEach(week => {
+            week.forEach(entry => {
+                totals[entry.team].points += entry.points;
+            });
+        });
+
+        // Convert to array and sort by total points
+        const standingsArray = Object.values(totals).sort((a, b) => {
+            return b.points - a.points;
+        });
+
+        // Render standings table
+        const table = document.getElementById("standings-table");
+
+        standingsArray.forEach(row => {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+                <td>${row.team}</td>
+                <td>${row.points}</td>
             `;
-
-            tableBody.appendChild(row);
+            table.appendChild(tr);
         });
     })
-    .catch(error => {
-        console.error("Error loading standings:", error);
-    });
+    .catch(err => console.error("Error loading standings:", err));
