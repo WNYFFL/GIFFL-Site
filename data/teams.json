@@ -2,7 +2,7 @@
     {
         "teamName": "Slackers",
         "owner": "Vincent",
-        "logo": "images/slackers.png"
+        "logo": "../images/slackers.png"
     },
     {
         "teamName": "Nine Below Zero",
